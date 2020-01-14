@@ -1,0 +1,28 @@
+[
+  {
+    "value": "Big Cinemas",
+    "synonyms": [
+      "big",
+      "big cinema"
+    ]
+  },
+  {
+    "value": "PVR",
+    "synonyms": [
+      "PVR",
+      "pvr"
+    ]
+  },
+  {
+    "value": "cinepolis",
+    "synonyms": [
+      "Cinepolis"
+    ]
+  },
+  {
+    "value": "inox",
+    "synonyms": [
+      "Inox"
+    ]
+  }
+]

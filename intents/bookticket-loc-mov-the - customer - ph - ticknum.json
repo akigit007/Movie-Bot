@@ -1,0 +1,81 @@
+{
+  "id": "90009b90-857e-469e-a14d-ea541bdf3320",
+  "parentId": "01063ecd-e902-4de8-a792-7431cb0d5001",
+  "rootParentId": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket-loc-mov-the - customer - ph - ticknum",
+  "auto": true,
+  "contexts": [
+    "bookticket-loc-mov-the-customer-ph-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookticket.bookticket-loc.bookticket-loc-mov.bookticket-loc-mov-the.bookticket-loc-mov-the-custom.bookticket-loc-mov-the-customer-custom.bookticket-loc-mov-the-customer-ph-custom",
+      "affectedContexts": [
+        {
+          "name": "toshow",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6fe16daa-f448-47a2-a425-4068d6669a35",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Select the show timings.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Morning"
+            },
+            {
+              "title": "Afternoon"
+            },
+            {
+              "title": "Evening"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

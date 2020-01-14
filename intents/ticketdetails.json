@@ -1,0 +1,37 @@
+{
+  "id": "49c345b0-20d0-435b-87b1-1bc0089ee119",
+  "parentId": "7bd8afbc-6c5c-450f-823b-96f446e086ed",
+  "rootParentId": "7bd8afbc-6c5c-450f-823b-96f446e086ed",
+  "name": "ticketdetails",
+  "auto": true,
+  "contexts": [
+    "Showtime-followup",
+    "ticketdetails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Showtime.Showtime-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

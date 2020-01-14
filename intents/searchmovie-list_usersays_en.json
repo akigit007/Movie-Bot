@@ -1,0 +1,72 @@
+[
+  {
+    "id": "9999dff8-05f3-452a-8a8c-6afb71ee225f",
+    "data": [
+      {
+        "text": "Bangalore",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c6204d8-659a-46b1-b6d3-08a45af225d5",
+    "data": [
+      {
+        "text": "Pune",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e438ff1-c686-4b83-8b2f-cdca5587fa3a",
+    "data": [
+      {
+        "text": "Mumbai",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7ef3046-0f25-4631-a463-ecce78c64ff1",
+    "data": [
+      {
+        "text": "Delhi",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4c3fd9e-99d9-4fd9-8ef1-ff4c4eaff87d",
+    "data": [
+      {
+        "text": "location",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

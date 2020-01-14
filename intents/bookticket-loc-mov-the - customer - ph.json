@@ -1,0 +1,55 @@
+{
+  "id": "01063ecd-e902-4de8-a792-7431cb0d5001",
+  "parentId": "969950ac-8d76-4d53-86f6-7d57b8ee25e7",
+  "rootParentId": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket-loc-mov-the - customer - ph",
+  "auto": true,
+  "contexts": [
+    "bookticket-loc-mov-the-customer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookticket.bookticket-loc.bookticket-loc-mov.bookticket-loc-mov-the.bookticket-loc-mov-the-custom.bookticket-loc-mov-the-customer-custom",
+      "affectedContexts": [
+        {
+          "name": "bookticket-loc-mov-the-customer-ph-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6ecef601-8c33-424f-887e-d93a40a97eac",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "cnum",
+          "value": "$cnum",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Enter number of ticket you want"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

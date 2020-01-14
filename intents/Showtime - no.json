@@ -1,0 +1,37 @@
+{
+  "id": "ae92b329-a986-42cc-9067-bbd4f6af6026",
+  "parentId": "7bd8afbc-6c5c-450f-823b-96f446e086ed",
+  "rootParentId": "7bd8afbc-6c5c-450f-823b-96f446e086ed",
+  "name": "Showtime - no",
+  "auto": true,
+  "contexts": [
+    "Showtime-followup",
+    "ticketdetails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Showtime.Showtime-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you for joining with ACT your Accenture cinema bot. See you soon"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

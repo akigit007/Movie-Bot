@@ -1,0 +1,55 @@
+{
+  "id": "969950ac-8d76-4d53-86f6-7d57b8ee25e7",
+  "parentId": "9cb21243-3a56-40b4-8187-423e245bb990",
+  "rootParentId": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket-loc-mov-the - customer",
+  "auto": true,
+  "contexts": [
+    "bookticket-loc-mov-the-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookticket.bookticket-loc.bookticket-loc-mov.bookticket-loc-mov-the.bookticket-loc-mov-the-customer",
+      "affectedContexts": [
+        {
+          "name": "bookticket-loc-mov-the-customer-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a84b517b-3b9d-4546-bcb4-57a35c025e1c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cname",
+          "value": "$cname",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please enter phone number"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

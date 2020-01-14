@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c662235b-2d05-4638-a6d6-88c3aa32cc34",
+    "data": [
+      {
+        "text": "Afternoon",
+        "alias": "tod",
+        "meta": "@tod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "641a1776-73a5-432b-b79d-9d60532b59a1",
+    "data": [
+      {
+        "text": "evening",
+        "alias": "tod",
+        "meta": "@tod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "fb39b409-8544-4f44-b88e-333892e3840a",
+    "data": [
+      {
+        "text": "Morning",
+        "alias": "tod",
+        "meta": "@tod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

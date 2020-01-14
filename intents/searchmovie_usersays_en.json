@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e631a19b-1ede-42c9-95d2-0ac3cc6c301a",
+    "data": [
+      {
+        "text": "movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2bfe5fb-97d9-460e-83ee-167bbe08cf84",
+    "data": [
+      {
+        "text": "Search",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "535605ea-1b34-424b-8739-2182da41a9b6",
+    "data": [
+      {
+        "text": "Search for a movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

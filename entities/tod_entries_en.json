@@ -1,0 +1,29 @@
+[
+  {
+    "value": "Afternoon",
+    "synonyms": [
+      "Afternoon",
+      "afternoon"
+    ]
+  },
+  {
+    "value": "Evening",
+    "synonyms": [
+      "Evening",
+      "evening"
+    ]
+  },
+  {
+    "value": "Morning",
+    "synonyms": [
+      "Morning",
+      "morning"
+    ]
+  },
+  {
+    "value": "tod",
+    "synonyms": [
+      "tod"
+    ]
+  }
+]

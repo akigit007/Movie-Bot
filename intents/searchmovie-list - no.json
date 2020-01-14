@@ -1,0 +1,36 @@
+{
+  "id": "d09b7529-c0d2-4501-901f-bb9f58963565",
+  "parentId": "3ce9e24f-adab-4b8e-919f-b4954f8d212f",
+  "rootParentId": "1fe5ce7d-ba5a-4c01-a40c-ff26440beb9f",
+  "name": "searchmovie-list - no",
+  "auto": true,
+  "contexts": [
+    "searchmovie-list-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "searchmovie.searchmovie-custom.searchmovie-list-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ok! Thankyou for visiting Accenture Cinema.See you soon"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

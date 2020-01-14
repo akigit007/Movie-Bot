@@ -1,0 +1,42 @@
+{
+  "id": "9afcec72-e781-41f9-b5ff-d238c782dfe9",
+  "parentId": "3ce9e24f-adab-4b8e-919f-b4954f8d212f",
+  "rootParentId": "1fe5ce7d-ba5a-4c01-a40c-ff26440beb9f",
+  "name": "searchmovie-list - yes",
+  "auto": true,
+  "contexts": [
+    "searchmovie-list-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "searchmovie.searchmovie-custom.searchmovie-list-yes",
+      "affectedContexts": [
+        {
+          "name": "tobook",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ok! Taking you to book option.Please confirm by stating \"book\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

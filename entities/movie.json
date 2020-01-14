@@ -1,0 +1,9 @@
+{
+  "id": "386b5162-d26f-41ef-b319-777822fc5720",
+  "name": "movie",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

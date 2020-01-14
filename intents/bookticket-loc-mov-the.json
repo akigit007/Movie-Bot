@@ -1,0 +1,55 @@
+{
+  "id": "9cb21243-3a56-40b4-8187-423e245bb990",
+  "parentId": "788ba095-3e54-41ff-8d82-2fddfe767c16",
+  "rootParentId": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket-loc-mov-the",
+  "auto": true,
+  "contexts": [
+    "bookticket-loc-mov-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookticket.bookticket-loc.bookticket-loc-mov.bookticket-loc-mov-the",
+      "affectedContexts": [
+        {
+          "name": "bookticket-loc-mov-the-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1911f09d-de8f-4018-ad91-5ba24d7b48f8",
+          "required": true,
+          "dataType": "@theatre",
+          "name": "theatre",
+          "value": "$theatre",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please enter customer name"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

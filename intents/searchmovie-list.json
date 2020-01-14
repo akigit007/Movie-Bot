@@ -1,0 +1,132 @@
+{
+  "id": "3ce9e24f-adab-4b8e-919f-b4954f8d212f",
+  "parentId": "1fe5ce7d-ba5a-4c01-a40c-ff26440beb9f",
+  "rootParentId": "1fe5ce7d-ba5a-4c01-a40c-ff26440beb9f",
+  "name": "searchmovie-list",
+  "auto": true,
+  "contexts": [
+    "searchmovie-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "searchmovie.searchmovie-custom",
+      "affectedContexts": [
+        {
+          "name": "searchmovie-list-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5fab6869-7bb0-426e-85c9-ffbfbfa7756a",
+          "required": true,
+          "dataType": "@location",
+          "name": "location",
+          "value": "$location",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Showing Movies.Would you like to book now?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Sanju",
+                "synonyms": []
+              },
+              "title": "Sanju",
+              "description": "Duration: 162 mins\nCast: Sonam Kapoor, Sanjay Dutt, Ranbir Kapoor, Anushka Sharma \nDirector: Rajkumar Hirani",
+              "image": {
+                "url": "https://originserver-static1-uat.pvrcinemas.com/pvrwebsite/big/thumb/HO00013211.jpg",
+                "accessibilityText": "Sanju"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "INCREDIBLES 2",
+                "synonyms": []
+              },
+              "title": "INCREDIBLES 2",
+              "description": "Duration: 118 mins\nCast: Holly Hunter, John Ratzenberger \nDirector: Brad Bird",
+              "image": {
+                "url": "https://originserver-static1-uat.pvrcinemas.com/pvrwebsite/big/thumb/HO00012571.jpg",
+                "accessibilityText": "INCREDIBLES 2"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "AVENGERS",
+                "synonyms": []
+              },
+              "title": "AVENGERS",
+              "description": "Duration: 149 mins\nCast: Tessa Thompson, Letitia Wright, Chadwick Boseman \nDirector: Anthony Russo",
+              "image": {
+                "url": "https://originserver-static1-uat.pvrcinemas.com/pvrwebsite/big/thumb/HO00012664.jpg",
+                "accessibilityText": "AVENGERS"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "JURASSIC WORLD",
+                "synonyms": []
+              },
+              "title": "JURASSIC WORLD",
+              "description": "Duration: 128 mins\nCast: Toby Jones, Chris Pratt \nDirector: J.A. Bayona",
+              "image": {
+                "url": "https://originserver-static1-uat.pvrcinemas.com/pvrwebsite/big/thumb/HO00013120.jpg",
+                "accessibilityText": "JURASSIC WORLD"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "ANT-MAN",
+                "synonyms": []
+              },
+              "title": "ANT-MAN",
+              "description": "Duration: 118 mins\nCast: Michael Douglas, Paul Rudd \nDirector: Peyton Reed",
+              "image": {
+                "url": "https://originserver-static1-uat.pvrcinemas.com/pvrwebsite/big/thumb/HO00013330.jpg",
+                "accessibilityText": "ANT-MAN"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

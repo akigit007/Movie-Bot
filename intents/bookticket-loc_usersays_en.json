@@ -1,0 +1,108 @@
+[
+  {
+    "id": "47e45dd6-71f4-42f6-933f-7abff2d425b8",
+    "data": [
+      {
+        "text": "I\u0027ve selected ",
+        "userDefined": false
+      },
+      {
+        "text": "location",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20e79e5a-78b6-44d2-a092-481ed7f36742",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "location",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3bc6218d-6451-445e-8857-31b67a0de956",
+    "data": [
+      {
+        "text": "Pune",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f607b95d-b4f3-40cb-a376-edec50a98283",
+    "data": [
+      {
+        "text": "Delhi",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f9e9561-0d16-46c2-a595-f5bf1e6f4899",
+    "data": [
+      {
+        "text": "Bangalore",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4c65eeb4-5abf-4668-85dc-de1ebc40231e",
+    "data": [
+      {
+        "text": "Mumbai",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "5cd7ffb3-de3d-438b-ac23-b88342ea826a",
+    "data": [
+      {
+        "text": "location",
+        "alias": "location",
+        "meta": "@location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

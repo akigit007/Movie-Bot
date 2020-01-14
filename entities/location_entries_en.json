@@ -1,0 +1,36 @@
+[
+  {
+    "value": "Bangalore",
+    "synonyms": [
+      "Bang",
+      "Bangalore",
+      "Bengaluru",
+      "bangalore",
+      "bengaluru"
+    ]
+  },
+  {
+    "value": "Delhi",
+    "synonyms": [
+      "Delhi",
+      "NCR",
+      "New Delhi",
+      "delhi"
+    ]
+  },
+  {
+    "value": "Mumbai",
+    "synonyms": [
+      "Bombay",
+      "Mumbai",
+      "mumbai"
+    ]
+  },
+  {
+    "value": "Pune",
+    "synonyms": [
+      "Pune",
+      "pune"
+    ]
+  }
+]

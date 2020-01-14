@@ -1,0 +1,98 @@
+[
+  {
+    "id": "dc3d682b-4480-4a27-a790-3b08b3ed52bb",
+    "data": [
+      {
+        "text": "Hi i would like to book",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e27082f1-7f85-4ed9-8ae7-0faf702f7d8c",
+    "data": [
+      {
+        "text": "book",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbb3811f-e831-4de3-89c4-084eaccdf407",
+    "data": [
+      {
+        "text": "Hey! I  like to book tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "706ec7e4-ff6e-439a-bd69-b63a390c273b",
+    "data": [
+      {
+        "text": "Book please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a55aea15-58b0-4488-91dc-fd4cd855b964",
+    "data": [
+      {
+        "text": "I\u0027d like to book ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0bdcc7ed-1213-4f5b-ac0d-3bfac7fc0f66",
+    "data": [
+      {
+        "text": "I want to book ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ccb91b1-cd47-4791-b38c-05182a19510e",
+    "data": [
+      {
+        "text": "tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "381cd462-86d9-4694-81ba-fb5f0014b5c8",
+    "data": [
+      {
+        "text": "Book Tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

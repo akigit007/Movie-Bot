@@ -1,0 +1,122 @@
+{
+  "id": "788ba095-3e54-41ff-8d82-2fddfe767c16",
+  "parentId": "dc751f66-9ea6-4b57-a7a2-84e1690ae977",
+  "rootParentId": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket-loc-mov",
+  "auto": true,
+  "contexts": [
+    "bookticket-loc-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookticket.bookticket-loc.bookticket-loc-mov",
+      "affectedContexts": [
+        {
+          "name": "bookticket-loc-mov-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3c22e175-c3e7-424b-91be-d231b03e724c",
+          "required": false,
+          "dataType": "@movie",
+          "name": "movie",
+          "value": "$movie",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Please select the theater type.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Theatre type",
+          "subtitle": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "1",
+                "synonyms": []
+              },
+              "title": "PVR",
+              "description": "",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pvrcinemas_logo.jpg/220px-Pvrcinemas_logo.jpg",
+                "accessibilityText": "PVR"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "2",
+                "synonyms": []
+              },
+              "title": "inox",
+              "description": "",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSZLElri6rEv3ppmOXPPQ66ntO81nm5B34JmKw_F7jjBdzWlp4adw",
+                "accessibilityText": "inox"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "3",
+                "synonyms": []
+              },
+              "title": "Big Cinemas",
+              "description": "",
+              "image": {
+                "url": "https://image3.mouthshut.com/images/imagesp/925859771s.jpg",
+                "accessibilityText": "Big Cinemas"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "4",
+                "synonyms": []
+              },
+              "title": "cinepolis",
+              "description": "",
+              "image": {
+                "url": "http://thane.city/wp-content/uploads/2014/11/Cinepolis-viviana-thane.jpg",
+                "accessibilityText": "cinepolis"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

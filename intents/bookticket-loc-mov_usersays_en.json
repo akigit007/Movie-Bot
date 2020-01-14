@@ -1,0 +1,208 @@
+[
+  {
+    "id": "5189fb9d-b8be-4b35-b31e-718385aa13c9",
+    "data": [
+      {
+        "text": "How about ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4d8964d-bd1a-4628-ae7e-bfb34a1b6911",
+    "data": [
+      {
+        "text": "I\u0027d like to go to ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "272bfedd-60e7-4582-9417-aa9c1a3980f5",
+    "data": [
+      {
+        "text": "I want to watch ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f7cd478-7d82-43ac-bd69-4b7e7a6f7a42",
+    "data": [
+      {
+        "text": "I want to  book for ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "348976a2-212b-43e5-a384-7e408539ee01",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d919aed1-91f5-40d1-8c9e-a8216efcc3de",
+    "data": [
+      {
+        "text": "ANT MAN",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0b72a505-4dca-49f9-8977-36e090f21cf8",
+    "data": [
+      {
+        "text": "ANT-MAN",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ee0352a-abfb-4f0c-b3c2-78a29b47270a",
+    "data": [
+      {
+        "text": "JURASSIC WORLD",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73acc9a4-a5b4-4ed1-b64f-14b4dd9485e7",
+    "data": [
+      {
+        "text": "AVENGERS",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca363d94-faa7-46de-937e-2acdc0bb4ba6",
+    "data": [
+      {
+        "text": "INCREDIBLES 2",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4056f40b-f916-42d4-8815-3788ade5c6a7",
+    "data": [
+      {
+        "text": "Sanju (2D)",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5eede0d7-2cd1-48a1-837f-e1bc51ab1c86",
+    "data": [
+      {
+        "text": "Sanju",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c2139d1-9fc8-4fea-ac00-429a29fdb319",
+    "data": [
+      {
+        "text": "movie",
+        "alias": "movie",
+        "meta": "@movie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

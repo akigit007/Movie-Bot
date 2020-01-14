@@ -1,0 +1,104 @@
+{
+  "id": "1a498a61-ec4f-446b-8ea4-f1075b428180",
+  "name": "bookticket",
+  "auto": true,
+  "contexts": [
+    "tobook"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bookticket-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Sure! Please select your location",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Delhi",
+                "synonyms": []
+              },
+              "title": "Delhi",
+              "description": "Delhi",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTbGz5oFYz4WRhxdoa2EHWzhw0O4WfCqLguZA28dNnZUYiHq3HkQA",
+                "accessibilityText": "Delhi"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Mumbai",
+                "synonyms": []
+              },
+              "title": "Mumbai",
+              "description": "Mumbai",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQpB409fjK7hayig2F34cXgQYNx8Q-QSdrcM2qx2FPdThT-cbyT",
+                "accessibilityText": "Mumbai"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Bangalore",
+                "synonyms": []
+              },
+              "title": "Bangalore",
+              "description": "Bangalore",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTlyHxyX-Gm4DIMcmn-lgRiJ3EKPfX358bvIM_Thd_GFx8vPuGp",
+                "accessibilityText": "Bangalore"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Pune",
+                "synonyms": []
+              },
+              "title": "Pune",
+              "description": "Pune",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSaoUeENX-mkP4p55wTASxLHx_ZOZgekmUi_j15p-ePoE3f0289",
+                "accessibilityText": "Pune"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

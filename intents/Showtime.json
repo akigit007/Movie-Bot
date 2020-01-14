@@ -1,0 +1,73 @@
+{
+  "id": "7bd8afbc-6c5c-450f-823b-96f446e086ed",
+  "name": "Showtime",
+  "auto": true,
+  "contexts": [
+    "toshow"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ticketdetails",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Showtime-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4c6e343e-7fdf-41de-8c44-8ddbf544df4f",
+          "required": true,
+          "dataType": "@tod",
+          "name": "tod",
+          "value": "$tod",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "YES! :)"
+            },
+            {
+              "title": "NO!! :("
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
